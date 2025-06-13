@@ -1,0 +1,72 @@
+/* style.css */
+/* Google Fonts (via @import) */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: #ffffff;
+}
+
+/* NAVBAR */
+
+/* Fondo del navbar */
+.navbar-custom {
+  background-color: #F77414;
+}
+
+/* Texto blanco en los links del navbar */
+.navbar-custom .nav-link {
+  color: white;
+}
+
+/* Texto blanco al pasar el mouse (opcionalmente sin cambiar de color) */
+.navbar-custom .nav-link:hover {
+  color: white;
+  text-decoration: underline; /* o quitá esto si no querés efecto */
+}
+
+/* Ícono hamburguesa blanco */
+.navbar-custom .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* HEADER */
+.hero-image img {
+  width: 100%;
+}
+
+/* MAIN */
+/* Carousel */
+
+/* Secciones*/
+.extra-space-top {
+  margin-top: 8rem; /* o el valor que desees */
+}
+
+/* Footer */
+.bg-custom-blue {
+  background-color: #14599A;
+}
+
+.footer-pet-left,
+.footer-pet-right {
+  max-width: 150px; /* Ajusta esto según el tamaño deseado */
+  height: auto;
+}
+
+/* Media Queries para ajustar en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .footer-pet-left,
+  .footer-pet-right {
+    display: none; /* Oculta las imágenes en móviles si no se ven bien */
+  }
+
+  .footer-custom .container {
+    flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+  }
+}
