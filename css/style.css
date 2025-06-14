@@ -1,9 +1,9 @@
 /* style.css */
 /* Google Fonts (via @import) */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
 body {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Jersey 15', sans-serif;
   background-color: #ffffff;
 }
 
