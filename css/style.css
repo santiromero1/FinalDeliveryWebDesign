@@ -43,6 +43,10 @@ body {
 /* Carousel */
 
 /* Secciones*/
+.texto-principal {
+  font-size: 1.3rem;
+}
+
 .extra-space-top {
   margin-top: 8rem; 
 }
