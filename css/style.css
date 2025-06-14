@@ -19,10 +19,9 @@ body {
   color: white;
 }
 
-/* Texto blanco al pasar el mouse (opcionalmente sin cambiar de color) */
 .navbar-custom .nav-link:hover {
   color: white;
-  text-decoration: underline; /* o quitá esto si no querés efecto */
+  text-decoration: underline;
 }
 
 /* Ícono hamburguesa blanco */
@@ -45,7 +44,7 @@ body {
 
 /* Secciones*/
 .extra-space-top {
-  margin-top: 8rem; /* o el valor que desees */
+  margin-top: 8rem; 
 }
 
 /* Footer */
@@ -55,7 +54,7 @@ body {
 
 .footer-pet-left,
 .footer-pet-right {
-  max-width: 150px; /* Ajusta esto según el tamaño deseado */
+  max-width: 150px; 
   height: auto;
 }
 
