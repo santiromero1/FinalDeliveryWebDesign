@@ -62,14 +62,3 @@ body {
   height: auto;
 }
 
-/* Media Queries para ajustar en pantallas más pequeñas */
-@media (max-width: 768px) {
-  .footer-pet-left,
-  .footer-pet-right {
-    display: none; /* Oculta las imágenes en móviles si no se ven bien */
-  }
-
-  .footer-custom .container {
-    flex-direction: column; /* Apila los elementos en pantallas pequeñas */
-  }
-}
